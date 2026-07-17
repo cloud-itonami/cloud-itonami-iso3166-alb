@@ -1,0 +1,15 @@
+;; data/culture-tx.edn — DataScript tx-data derived from src/culture/facts.cljc
+;; `culture.facts/catalog` (ADR-2607171400 addendum 2, Wave 1 country-level).
+;; Same shape across every cloud-itonami-iso3166-* sibling. Do not hand-edit;
+;; regenerate from the catalog.
+
+[
+#:culture{:id "alb.dish.tave-kosi", :name "Tavë kosi", :country "ALB", :kind :dish, :summary "Traditional Albanian baked dish of mutton and rice covered with a mixture of yogurt, eggs, butter and flour, regarded as one of Albania's national dishes.", :url "https://en.wikipedia.org/wiki/Tav%C3%AB_kosi", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:id "alb.dish.byrek", :name "Byrek", :country "ALB", :kind :dish, :summary "Savory filo pastry with fillings such as meat, cheese or spinach, called byrek in Albania and popular throughout the Balkans and the former Ottoman world.", :url "https://en.wikipedia.org/wiki/Byrek", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:id "alb.dish.flia", :name "Flia", :country "ALB", :kind :dish, :summary "Multi-layered crêpe-like dish brushed with cream, typical of northern Albania and of the cuisine of Kosovo.", :url "https://en.wikipedia.org/wiki/Flia", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:url "https://en.wikipedia.org/wiki/Rakia", :id "alb.beverage.raki", :kind :beverage, :name-local "Rakia", :country "ALB", :retrieved-at "2026-07-17", :summary "Fruit brandy shared across Southeastern Europe; raki is a traditional drink in Albania.", :name "Raki", :url-provenance :wikipedia-en}
+#:culture{:id "alb.craft.qeleshe", :name "Qeleshe", :country "ALB", :kind :craft, :summary "White brimless felt skull cap traditionally worn by Albanians, part of the Albanian national costume.", :url "https://en.wikipedia.org/wiki/Qeleshe", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:id "alb.festival.dita-e-veres", :name "Dita e Verës", :country "ALB", :kind :festival, :summary "Albanian spring festival celebrated on March 14, marking the beginning of the spring-summer period with bonfires and traditional foods such as ballokume.", :url "https://en.wikipedia.org/wiki/Dita_e_Ver%C3%ABs", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:id "alb.heritage.butrint", :name "Butrint", :country "ALB", :kind :heritage, :summary "Ancient city and archaeological site in Vlorë County, Albania, declared a UNESCO World Heritage Site in 1992.", :url "https://en.wikipedia.org/wiki/Butrint", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:id "alb.heritage.gjirokaster", :name "Gjirokastër", :country "ALB", :kind :heritage, :summary "City in southern Albania noted for its Ottoman-era architecture, inscribed on the UNESCO World Heritage List in 2005 as part of the Historic Centres of Berat and Gjirokastra.", :url "https://en.wikipedia.org/wiki/Gjirokast%C3%ABr", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+]
