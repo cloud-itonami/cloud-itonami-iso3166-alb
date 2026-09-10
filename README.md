@@ -53,7 +53,7 @@ department.
 | Governor | `:market-entry-compliance-governor` |
 | Ops | `:engagement/intake` · `:jurisdiction/assess` · `:filing/draft` · `:filing/submit` |
 | Flagship HARD check | `tax-arrears-exceeds-de-minimis` (Ligji Nr. 162/2020 Neni 76(2)(c), a FLAT ALL 10,000 statutory constant independently recomputed -- see `docs/adr/0001-architecture.md`) |
-| Compliance catalog | `src/statute/facts.cljc` -- Commercial Companies Law, Labour Code, Personal Data Protection Law |
+| Compliance catalog | `src/statute/facts.kotoba` -- Commercial Companies Law, Labour Code, Personal Data Protection Law |
 | Tests | `clojure -M:dev:test` |
 | Demo | `clojure -M:dev:run` |
 | Architecture ADR | [`docs/adr/0001-architecture.md`](docs/adr/0001-architecture.md) |
@@ -123,7 +123,7 @@ Alongside the market-entry / statute catalogs, this repo carries a
 `com-junkawasaki/root`) -- national dishes, protected products, beverages,
 crafts, festivals and heritage sites for Albania:
 
-- `src/culture/facts.cljc` -- the catalog, source of truth (keyed by
+- `src/culture/facts.kotoba` -- the catalog, source of truth (keyed by
   uppercase ISO3, mirroring `statute.facts`).
 - `schema/culture.edn` -- DataScript schema.
 - `data/culture-tx.edn` -- derived DataScript tx-data (regenerated from
