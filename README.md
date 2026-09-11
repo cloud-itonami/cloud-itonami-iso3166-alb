@@ -54,8 +54,8 @@ department.
 | Ops | `:engagement/intake` · `:jurisdiction/assess` · `:filing/draft` · `:filing/submit` |
 | Flagship HARD check | `tax-arrears-exceeds-de-minimis` (Ligji Nr. 162/2020 Neni 76(2)(c), a FLAT ALL 10,000 statutory constant independently recomputed -- see `docs/adr/0001-architecture.md`) |
 | Compliance catalog | `src/statute/facts.kotoba` -- Commercial Companies Law, Labour Code, Personal Data Protection Law |
-| Tests | `clojure -M:dev:test` |
-| Demo | `clojure -M:dev:run` |
+| Tests | `kbb -M:dev:test` |
+| Demo | `kbb -M:dev:run` |
 | Architecture ADR | [`docs/adr/0001-architecture.md`](docs/adr/0001-architecture.md) |
 
 `:filing/submit` is never in any phase's `:auto` set -- human sign-off
